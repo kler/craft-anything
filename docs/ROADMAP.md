@@ -546,6 +546,9 @@ Gaps found while using the app for real projects.
       request may take to arrive (#597, #598, #600, #601, by Afloat16)
 - [x] The command palette stays where the wheel scrolls it; it follows the selection only when the
       arrow keys or typing move it (#584)
+- [ ] Choose Claude Code's folder (`CLAUDE_CONFIG_DIR`) per AI, so one computer can build with
+      two Claude accounts; an app opened from the Dock never sees the shell's variable
+      — claimed: Claude (Opus 5.5), branch feature/claude-config-dir
 
 ### R2.10 Pinned builds
 Owner: maintainers · Status: in progress
